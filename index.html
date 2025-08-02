@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="app-title">Weather App</div>
+            <h2>Welcome!</h2>
+            <p>Check the weather in your city.</p>
+            <form id="weather-form">
+                <input type="text" id="city-input" placeholder="Enter city name" required>
+                <button type="submit">Search</button>
+            </form>
+            <div class="weather-info" id="weather-info">
+                <p>Weather details will appear here.</p>
+            </div>
+            <div class="popular-cities-section">
+                <h3>Popular Cities in India</h3>
+                <div class="popular-cities" id="popular-cities">
+                    <!-- Cards will be populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
